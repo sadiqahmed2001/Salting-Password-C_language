@@ -32,7 +32,7 @@ It declares a 200-character array newpass.
 It uses strcpy to copy the password array's contents to the newpass array.
 It uses strcat to append the salt array's contents to the newpass array.
 The concatenated string is printed using puts.
-
+    
 step🕔
 This software basically accepts a password as input, concatenates it with a predetermined salt string, and then outputs the result.
 This salted string can then be used for other cryptographic processes, such as hashing, to increase security.
